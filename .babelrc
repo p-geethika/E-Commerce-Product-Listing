@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "razzle/babel"
+   ],
+   "plugins": [
+     ["module-resolver", {
+        "root": ["./src"],
+        "alias": {
+          "common": "./src/common",
+          "global": "./src/global",
+          "components": "./src/components",
+          "assets": "./src/assets",
+          "styles": "./src/styles",
+          "pages": "./src/pages",
+        }
+      }]
+   ]
+}

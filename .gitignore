@@ -1,0 +1,7 @@
+node_modules
+.git
+yarn-error.log
+build/
+.DS_Store
+npm-debug.log*
+.idea
